@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask-Q ניהול וייעוץ מס</title>
+    <style>
+        :root {
+            --primary: #0f4c5c;
+            --accent: #e9c46a;
+            --bg: #f7f7f5;
+            --text: #222;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section h2 {
+            color: var(--primary);
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.2rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--primary);
+            color: #fff;
+        }
+
+        a.contact-link {
+            color: var(--accent);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ask-Q ניהול וייעוץ מס</h1>
+        <p>פתרונות מס מקצועיים לעסקים ולפרטיים</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>אודות</h2>
+            <p>Ask-Q מספקת שירותי ניהול וייעוץ מס מקיפים, בליווי אישי ומקצועי, המותאמים לצרכים הייחודיים של כל לקוח.</p>
+        </section>
+
+        <section>
+            <h2>השירותים שלנו</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>ייעוץ מס</h3>
+                    <p>תכנון מס אסטרטגי לחיסכון מירבי בהתאם לחוק.</p>
+                </div>
+                <div class="card">
+                    <h3>הנהלת חשבונות</h3>
+                    <p>ניהול שוטף ומדויק של הרישומים הפיננסיים שלך.</p>
+                </div>
+                <div class="card">
+                    <h3>דוחות שנתיים</h3>
+                    <p>הכנה והגשה של דוחות מס בזמן וללא טעויות.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>צור קשר</h2>
+            <p>נשמח לענות על כל שאלה ולהתחיל בליווי המס שלך.</p>
+            <p>אימייל: <a class="contact-link" href="mailto:info@ask-q.com">info@ask-q.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ask-Q. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+
+</html>
